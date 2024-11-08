@@ -1,0 +1,550 @@
+@charset "ISO-8859-1";
+@keyframes mouthOpenBottom{
+	0% {rotate: 0deg;}
+	50% {rotate: -20deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth1{
+	0% {rotate: 0deg;}
+	50% {rotate: -30deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth2{
+	0% {rotate: 0deg;}
+	50% {rotate: -28deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth3{
+	0% {rotate: 0deg;}
+	50% {rotate: -26deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth4{
+	0% {rotate: 0deg;}
+	50% {rotate: -24deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth5{
+	0% {rotate: 0deg;}
+	50% {rotate: -22deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth6{
+	0% {rotate: 0deg;}
+	50% {rotate: -20deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth7{
+	0% {rotate: 0deg;}
+	50% {rotate: -18deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth8{
+	0% {rotate: 0deg;}
+	50% {rotate: -16deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth9{
+	0% {rotate: 0deg;}
+	50% {rotate: -14deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenTooth10{
+	0% {rotate: 0deg;}
+	50% {rotate: -12deg;}
+  100% {rotate: 0deg;}
+}
+@keyframes mouthOpenFlame1{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenFlame2{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenFlame3{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenFlame4{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenFlame5{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenFlame6{
+	0% {opacity: 0; width: 250px; left: 100px;}
+	50% {opacity: 1; width: 300px; left: 0px;}
+	70% {opacity: 0; width: 250px; left: 0px;}
+  100% {opacity: 0; width: 250px; left: 0px;}
+}
+@keyframes mouthOpenSmoke{
+	0% {opacity: 0; width: 300px; left: 0px;}
+	30% {opacity: 0; width: 300px; left: 0px;}
+	55% {opacity: 1; width: 300px; left: 0px;}
+	85% {opacity: 0;width: 300px; left: 0px;}
+  100% {opacity: 0; width: 300px; left: 0px;}
+}
+.head{
+	
+}
+.topOfHead{
+	height: 50px;
+  	width: 200px;
+  	background-color: #48bfe3;
+  	border-radius: 80% 35% 0 0/ 100% 100% 0 0;
+  	position: absolute;
+  	top: 200px;
+  	left: 300px;
+  	z-index: 100;
+}
+.bottomOfHead{
+	background-color: #48bfe3;
+  	height: 35px;
+  	width: 200px;
+  	border-bottom-right-radius: 400px;
+  	border-bottom-left-radius: 400px;
+  	position: absolute;
+  	top: 250px;
+  	left: 300px;
+  	z-index: 101;
+  transform-origin: 100% 0%;
+  animation-name: mouthOpenBottom;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+.sideOfHead{
+	height: 75px;
+ 	width: 40px;
+ 	background-color: #48bfe3;
+ 	border-radius: 100% / 60%;
+ 	border-top-left-radius: 0px;
+  	border-bottom-left-radius: 0px;
+  	position: absolute;
+  	top: 210px;
+  	left: 460px;
+  	z-index: 102;
+}
+.horn1OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 60px solid #e5e5e5;
+	position: absolute;
+  	top: 160px;
+  	left: 450px;
+  	rotate: 30deg;
+  	z-index: 99;
+}
+.horn2OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 60px solid #eee;
+	position: absolute;
+  	top: 160px;
+  	left: 445px;
+  	rotate: 30deg;
+}
+.spike1OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 35px solid #ff4081;
+	position: absolute;
+  	top: 190px;
+  	left: 320px;
+}
+.spike2OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-bottom: 30px solid #e53935;
+	position: absolute;
+  	top: 188px;
+  	left: 350px;
+}
+.spike3OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 27px solid #ff6d00;
+	position: absolute;
+  	top: 186px;
+  	left: 380px;
+}
+.spike4OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 24px solid #ffc400;
+	position: absolute;
+  	top: 184px;
+  	left: 410px;
+}
+.spike5OfHead{
+	width: 0px;
+	height: 0px;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 24px solid #4caf50;
+	position: absolute;
+  	top: 182px;
+  	left: 440px;
+  	z-index: 98;
+}
+.outerEyeOfHead{
+	height: 25px;
+  	width: 50px;
+  	background-color: #9bd820;
+  	border-radius: 50%;
+  	position: absolute;
+  	top: 225px;
+  	left: 420px;
+  	z-index: 103;
+}
+.EyeballOfHead{
+	height: 25px;
+  	width: 7px;
+  	background-color: #555;
+  	border-radius: 50%;
+  	position: absolute;
+  	top: 0px;
+  	left: 22.5px;
+  	z-index: 104;
+}
+.tooth1OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 310px;
+}
+.tooth2OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 320px;
+}
+.tooth3OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 330px;
+}
+.tooth4OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 340px;
+}
+.tooth5OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 350px;
+}
+.tooth6OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 360px;
+}
+.tooth7OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 370px;
+}
+.tooth8OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 380px;
+}
+.tooth9OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 390px;
+}
+.tooth10OfUpperHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 20px solid #eee;
+	position: absolute;
+  	top: 250px;
+  	left: 400px;
+}
+.tooth1OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 315px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth1;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth2OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 325px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth2;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth3OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 335px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth3;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth4OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 345px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth4;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth5OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 355px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth5;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth6OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 365px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth6;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth7OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 375px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth7;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth8OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 385px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth8;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth9OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 395px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth9;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+.tooth10OfLowerHead{
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 20px solid #eee;
+	position: absolute;
+	top: 250px;
+  	left: 405px;
+  	transform-origin: 85px 0%;
+  	animation-name: mouthOpenTooth10;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#smokeImage img[src="https://i.postimg.cc/3R7kkF21/smoke.png"]{
+  	width: 250px;
+  	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 20;
+  	opacity: 1;
+  	animation-name: mouthOpenSmoke;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame1Image img[src="https://i.postimg.cc/nhFZ9SWC/flamepart1.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 19;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame1;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame2Image img[src="https://i.postimg.cc/x16Qvyrg/flamepart2.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 18;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame2;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame3Image img[src="https://i.postimg.cc/sXSbN5Lk/flamepart3.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 17;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame3;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame4Image img[src="https://i.postimg.cc/7L5FSFnY/flamepart4.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 16;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame4;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame5Image img[src="https://i.postimg.cc/0j0F8PPZ/flamepart5.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 15;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame5;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
+#flame6Image img[src="https://i.postimg.cc/WbSCCN91/flamepart6.png"]{
+	width: 250px;
+	position: absolute;
+  	top: 200px;
+  	left: 100px;
+  	z-index: 14;
+  	opacity: 1;
+  	animation-name: mouthOpenFlame6;
+  	animation-duration: 12s;
+  	animation-iteration-count: infinite;
+}
